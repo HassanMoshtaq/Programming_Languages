@@ -1,0 +1,63 @@
+<%- include("header.ejs") %>   
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Python sharp Programming language</title>
+</head>
+<body class="Python-Body">
+    <div class="Python">
+        <div class="Python-info">
+
+            <h1> Python Introduction </h1>
+            <h3> What is Python? </h3>
+            <img src="data:image/png;base64,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">
+            <img src="https://miro.medium.com/v2/resize:fit:500/1*vhBCH7FrI1qKEVToZBXdfQ.png">
+            <p> Python is a popular programming language. It was created by Guido van Rossum, and released in 1991."</p>
+            <p> It is used for:</p>
+            <div class="PythonLists">
+                <ul>
+
+                    <li> web development (server-side),</li>
+                    <li> software development,</li>
+                    <li> mathematics,</li>
+                    <li> system scripting.</li>
+
+
+
+
+                </ul>
+
+
+            </div>
+            
+
+
+        </div>
+        <div class="Python-SubMain1">
+
+            <h3> Why Python? </h3>
+            <ul class="Python-list1">
+
+                <li><p>Python works on different platforms (Windows, Mac, Linux, Raspberry Pi, etc). </p> </li>
+                <li><p> Python has a simple syntax similar to the English language.</p></li>
+                <li><p> Python has syntax that allows developers to write programs with fewer lines than some other programming languages.</p></li>
+                <li><p>Python runs on an interpreter system, meaning that code can be executed as soon as it is written. This means that prototyping can be very quick</p></li>
+                <li><p>Python can be treated in a procedural way, an object-oriented way or a functional way.</p></li>
+
+
+                
+            </ul>
+
+
+
+        </div>
+       
+       
+    </div>
+
+    
+</body>
+</html>

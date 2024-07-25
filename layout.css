@@ -1,0 +1,54 @@
+body{
+    background-color: aqua;
+}
+#c-Programming{
+   
+    background-color:whitesmoke;
+    font-size: larger;
+    color: white;
+    height: 30px;
+    width: 200px;
+    display: block;
+}
+#Cpp-Programming{
+
+    background-color:whitesmoke;
+    font-size: larger;
+    color: white;
+    height: 35px;
+    width: 250px;
+    display: block;
+
+}
+#Csharp-Programming
+{
+    background-color:whitesmoke;
+    font-size: larger;
+    color: white;
+    height: 35px;
+    width: 250px;
+    display: block;
+
+}
+#Python-Programming
+{
+    background-color:whitesmoke;
+    font-size: larger;
+    color: white;
+    height: 35px;
+    width: 250px;
+    display: block;
+
+}
+
+.C-Body{
+    background-color: blanchedalmond;
+}
+.Cpp-Body{
+    background-color: greenyellow;
+}
+.Csharp-Body{
+    background-color:yellow;
+}.Python-Body{
+    background-color: chocolate;
+}
